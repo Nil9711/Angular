@@ -63,7 +63,7 @@ module.exports = "<!-- Footer -->\n<div class=\"footerFont\">\n\n    <footer cla
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand navbar-dark bg-dark\">\n\n    <a class=\"navbar-brand fontOfirLee\" href=\"#\">\n        <p>Ofir Lee Photography</p>\n    </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo02\" aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n\n    <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo02\">\n        <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">\n            <li class=\"nav-item active\">\n                <a class=\"nav-link fontOfirLee\" href=\"#\">\n                    <p>Home</p> <span class=\"sr-only\">(current)</span></a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link fontOfirLee\" href=\"/about\"><p>About Me</p></a>\n            </li>\n        </ul>\n    </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand navbar-dark bg-dark\">\n\n    <a class=\"navbar-brand fontOfirLee\" href=\"#\">\n        <p>Ofir Lee Photography</p>\n    </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo02\" aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n\n\n    <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo02\">\n        <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">\n            <li class=\"nav-item active\">\n                <a routerLink=\"photos\" class=\"nav-link fontOfirLee\">\n                    <p>Home</p> <span class=\"sr-only\">(current)</span></a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link fontOfirLee\" routerLink=\"about\"><p>About Me</p></a>\n            </li>\n        </ul>\n    </div>\n</nav>"
 
 /***/ }),
 
@@ -198,7 +198,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [
     { path: "photos", component: _photos_photos_component__WEBPACK_IMPORTED_MODULE_6__["PhotosComponent"] },
-    { path: "/about", component: _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"] },
+    { path: "about", component: _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"] },
     { path: "", redirectTo: "photos", pathMatch: "full" }
 ];
 var AppModule = /** @class */ (function () {
