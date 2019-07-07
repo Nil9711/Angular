@@ -196,7 +196,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     { path: "photos", component: _photos_photos_component__WEBPACK_IMPORTED_MODULE_6__["PhotosComponent"] },
-    { path: "about", component: _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"] },
+    { path: "/about", component: _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"] },
     { path: "", redirectTo: "photos", pathMatch: "full" }
 ];
 let AppModule = class AppModule {
